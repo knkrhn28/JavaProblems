@@ -1,4 +1,4 @@
-package Geek;
+ package Geek;
 import java.util.Scanner;
 public class Fak {
 	static int fak(int n) {
@@ -8,19 +8,14 @@ public class Fak {
 		return n*fak(n-1);
 	}
 	public static void main(String[] args) {
-		
-		
 		try(Scanner kutu=new Scanner(System.in);) 
 		{
 			int number;
-			System.out.println("Number Enterance: ");
+			System.out.println("Faktoriyeli alýnacak sayýyý giriniz:");
 			number = kutu.nextInt();
 			System.out.println(fak(number));
 		}catch(Exception ex) {
 			ex.printStackTrace();
-		}
-		
-		
+		}		
 	}
-
 }
