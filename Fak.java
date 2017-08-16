@@ -8,11 +8,19 @@ public class Fak {
 		return n*fak(n-1);
 	}
 	public static void main(String[] args) {
-		Scanner kutu=new Scanner(System.in);
-		int number;
-		System.out.println("Number Enterance: ");
-		number = kutu.nextInt();
-		System.out.println(fak(number));
+		
+		
+		try(Scanner kutu=new Scanner(System.in);) 
+		{
+			int number;
+			System.out.println("Number Enterance: ");
+			number = kutu.nextInt();
+			System.out.println(fak(number));
+		}catch(Exception ex) {
+			ex.printStackTrace();
+		}
+		
+		
 	}
 
 }
