@@ -11,7 +11,7 @@ public class Fak {
 		try(Scanner kutu=new Scanner(System.in);) 
 		{
 			int number;
-			System.out.println("Faktoriyeli alýnacak sayýyý giriniz:");
+			System.out.println("Faktoriyeli alinacak sayiyi giriniz:");
 			number = kutu.nextInt();
 			System.out.println(fak(number));
 		}catch(Exception ex) {
