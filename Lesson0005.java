@@ -10,5 +10,10 @@ public class Lesson0005 {
 	         total += liste[i];
 	      }
 	      System.out.println("toplam: " + total);
+	      double max = liste[0];
+	      for (int i = 1; i < liste.length; i++) {
+	         if (liste[i] > max) max = liste[i];
+	      }
+	      System.out.println("Max:" + max);
 	}
 }
