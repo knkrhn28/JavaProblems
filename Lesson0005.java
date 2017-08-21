@@ -5,5 +5,10 @@ public class Lesson0005 {
 		for (int i=0;i<liste.length;i++) {
 			System.out.println(liste[i]+" ");			
 		}
+		double total = 0;
+	      for (int i = 0; i < liste.length; i++) {
+	         total += liste[i];
+	      }
+	      System.out.println("toplam: " + total);
 	}
 }
