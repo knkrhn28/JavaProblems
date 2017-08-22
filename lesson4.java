@@ -3,7 +3,7 @@ package JavaLearn;
 public class lesson4 {
 
 	public static void main(String[] args) {
-		int a=45 ,b=2 , c=45 ,d=2;
+		int a=45 ,b=2 , c=46 ,d=2;
 		a++;
 		++b;
 		c--;
