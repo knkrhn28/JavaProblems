@@ -14,6 +14,6 @@ public class Lesson0005 {
 	      for (int i = 1; i < liste.length; i++) {
 	         if (liste[i] > max) max = liste[i];
 	      }
-	      System.out.println("Max:" + max);
+	      System.out.println("Maximum:" + max);
 	}
 }
