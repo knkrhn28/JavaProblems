@@ -6,7 +6,7 @@ public class Lesson0007 {
 		String kelime = "money";int i,tahmin=0,anahtar=0,dogru=0;
         String eldevar[] = new String[kelime.length()];
 
-        System.out.println("Kelimeyi bulmak için 4 yanlýþ hakkýnýz var.");
+        System.out.println("Kelimeyi bulmak iÃ§in 4 yalniz hakkiniz var.");
         BufferedReader klavye = new BufferedReader(new InputStreamReader(System.in));
 
         for (i = 0; i < kelime.length(); i++)
