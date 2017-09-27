@@ -4,8 +4,8 @@ public class calculator_Machine {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);	
 		double number1,number2,result,select;
-		System.out.println("Ýþlem Seçiniz");
-		System.out.println("1-Toplama\n" + "2-Çýkarma\n"+ "3-Çarpma\n" + "4-Bölme\n");
+		System.out.println("Islem Seçiniz");
+		System.out.println("1-Toplama\n" + "2-Cikarma\n"+ "3-Carpma\n" + "4-Bolme\n");
 		select=input.nextInt();
 		if(select==1) {
 			System.out.println("Number One Please: ");
