@@ -4,7 +4,7 @@ public class calculator_Machine {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);	
 		double number1,number2,result,select;
-		System.out.println("Islem Seçiniz");
+		System.out.println("Islem Seciniz");
 		System.out.println("1-Toplama\n" + "2-Cikarma\n"+ "3-Carpma\n" + "4-Bolme\n");
 		select=input.nextInt();
 		if(select==1) {
